@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hrline{
+    width: 100px;
+    height: 3px;           
+    background-color: rgb(193, 10, 10);
+    transform: skewX(-50deg); /* Slant the line */
+}
+/* .text-justify{
+    text-align: center;
+} */
+
+.aboutus{
+    background-color: rgb(244, 244, 244);
+
+}
+.relative-content{
+    margin-top: 120px;
+    position: relative;
+}
+
+.absolute-img{
+    width: 530px;
+    position: absolute;
+bottom: 0;
+right: 0;}
+
+.image-height{
+    height:  320px;
+    object-fit: cover;
+}
+
+
+.mynav{
+    background-color: red !important;
+}
+
+.newnav li a{
+    color: white !important;
+
+}
+
+
